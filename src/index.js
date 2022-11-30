@@ -24,7 +24,6 @@ const server = http.createServer((request, response) => {
 	}
 	if (request.url === '/'){
 		defaultResponse(request, response)
-		return
 	}
 
 })
